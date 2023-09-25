@@ -1,0 +1,116 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United Kingdom) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Exit",                        ID_MAIN_EXIT
+    END
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "ColorChooser",                ID_EDIT_COLORCHOOSER
+    END
+    POPUP "BrushTypes"
+    BEGIN
+        MENUITEM "StandardBrush",               ID_BRUSHTYPES_STANDARDBRUSH
+        MENUITEM "SprayCan",                    ID_BRUSHTYPES_SPRAYCAN
+        MENUITEM "Eraser",                      ID_BRUSHTYPES_ERASER
+    END
+    POPUP "BrushSize"
+    BEGIN
+        MENUITEM "Small",                       ID_BRUSHSIZE_SMALL
+        MENUITEM "Medium",                      ID_BRUSHSIZE_MEDIUM
+        MENUITEM "Large",                       ID_BRUSHSIZE_LARGE
+        MENUITEM "Extra Large",                 ID_BRUSHSIZE_EXTRALARGE
+    END
+    POPUP "Circle"
+    BEGIN
+        MENUITEM "Small",                       ID_CIRCLE_SMALL
+        MENUITEM "Medium",                      ID_CIRCLE_MEDIUM
+        MENUITEM "Large",                       ID_CIRCLE_LARGE
+        MENUITEM "Extra Large",                 ID_CIRCLE_EXTRALARGE
+    END
+    POPUP "Rectangle"
+    BEGIN
+        MENUITEM "Small",                       ID_RECTANGLE_SMALL
+        MENUITEM "Medium",                      ID_RECTANGLE_MEDIUM
+        MENUITEM "Large",                       ID_RECTANGLE_LARGE
+        MENUITEM "Extra Large",                 ID_RECTANGLE_EXTRALARGE
+    END
+END
+
+#endif    // English (United Kingdom) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (New Zealand) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENZ)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_NZ
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (New Zealand) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
